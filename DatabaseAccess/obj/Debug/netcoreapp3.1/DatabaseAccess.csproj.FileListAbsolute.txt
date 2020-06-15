@@ -1,0 +1,5 @@
+C:\Users\Predrag\Desktop\DatabaseSystemsProjectWebAPI\DatabaseAccess\bin\Debug\netcoreapp3.1\DatabaseAccess.deps.json
+C:\Users\Predrag\Desktop\DatabaseSystemsProjectWebAPI\DatabaseAccess\bin\Debug\netcoreapp3.1\DatabaseAccess.dll
+C:\Users\Predrag\Desktop\DatabaseSystemsProjectWebAPI\DatabaseAccess\obj\Debug\netcoreapp3.1\DatabaseAccess.csprojAssemblyReference.cache
+C:\Users\Predrag\Desktop\DatabaseSystemsProjectWebAPI\DatabaseAccess\obj\Debug\netcoreapp3.1\DatabaseAccess.AssemblyInfoInputs.cache
+C:\Users\Predrag\Desktop\DatabaseSystemsProjectWebAPI\DatabaseAccess\obj\Debug\netcoreapp3.1\DatabaseAccess.AssemblyInfo.cs
