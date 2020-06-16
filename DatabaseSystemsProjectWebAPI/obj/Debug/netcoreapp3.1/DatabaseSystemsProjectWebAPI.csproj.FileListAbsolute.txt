@@ -26,8 +26,6 @@ C:\Users\Predrag\Desktop\DatabaseSystemsProjectWebAPI\DatabaseSystemsProjectWebA
 C:\Users\Predrag\Desktop\DatabaseSystemsProjectWebAPI\DatabaseSystemsProjectWebAPI\bin\Debug\netcoreapp3.1\DatabaseSystemsProjectWebAPI.pdb
 C:\Users\Predrag\Desktop\DatabaseSystemsProjectWebAPI\DatabaseSystemsProjectWebAPI\bin\Debug\netcoreapp3.1\DatabaseAccess.dll
 C:\Users\Predrag\Desktop\DatabaseSystemsProjectWebAPI\DatabaseSystemsProjectWebAPI\bin\Debug\netcoreapp3.1\DatabaseAccess.pdb
-C:\Users\Predrag\Desktop\DatabaseSystemsProjectWebAPI\DatabaseSystemsProjectWebAPI\obj\Debug\netcoreapp3.1\DatabaseSystemsProjectWebAPI.csproj.CoreCompileInputs.cache
-C:\Users\Predrag\Desktop\DatabaseSystemsProjectWebAPI\DatabaseSystemsProjectWebAPI\obj\Debug\netcoreapp3.1\DatabaseSystemsProjectWebAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Predrag\Desktop\DatabaseSystemsProjectWebAPI\DatabaseSystemsProjectWebAPI\obj\Debug\netcoreapp3.1\DatabaseSystemsProjectWebAPI.dll
 C:\Users\Predrag\Desktop\DatabaseSystemsProjectWebAPI\DatabaseSystemsProjectWebAPI\obj\Debug\netcoreapp3.1\DatabaseSystemsProjectWebAPI.pdb
 C:\Users\Predrag\Desktop\DatabaseSystemsProjectWebAPI\DatabaseSystemsProjectWebAPI\obj\Debug\netcoreapp3.1\DatabaseSystemsProjectWebAPI.genruntimeconfig.cache

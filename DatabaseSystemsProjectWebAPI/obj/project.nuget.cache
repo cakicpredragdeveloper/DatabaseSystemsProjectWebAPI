@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "uyshZJgR95VdCYyU2r3sJirL2Llziygx3dIznN26ner3/Ea7jK+bA4IkXU532tqbKdV5+U/Zg65/xRhTOEOpLg==",
+  "dgSpecHash": "OJKlcweQUiI3oiP7ve6WgVabIlm+aHlykBkgDnRkMkMkJsNNJaEYUTCSMjP5CzggTAi5hk5azmisHzissOLtCw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Predrag\\Desktop\\DatabaseSystemsProjectWebAPI\\DatabaseSystemsProjectWebAPI\\DatabaseSystemsProjectWebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Predrag\\.nuget\\packages\\antlr3.runtime\\3.5.1\\antlr3.runtime.3.5.1.nupkg.sha512",
+    "C:\\Users\\Predrag\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\Predrag\\.nuget\\packages\\fluentnhibernate\\2.1.2\\fluentnhibernate.2.1.2.nupkg.sha512",
     "C:\\Users\\Predrag\\.nuget\\packages\\iesi.collections\\4.0.4\\iesi.collections.4.0.4.nupkg.sha512",
+    "C:\\Users\\Predrag\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Predrag\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Predrag\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Predrag\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
