@@ -537,13 +537,13 @@ namespace DatabaseAccess
             return poslanickeGrupeView;
         }
 
-        public static PoslanickaGrupaView UpdatePoslanickaGrupa(PoslanickaGrupaView poslanickaGrupaView)
+        public static PoslanickaGrupaView UpdatePoslanickaGrupa(int poslanickaGrupaId, PoslanickaGrupaView poslanickaGrupaView)
         {
             try
             {
                 ISession session = DataLayer.GetSession();
 
-                PoslanickaGrupa poslanickaGrupa = session.Load<PoslanickaGrupa>(poslanickaGrupaView.Id);
+                PoslanickaGrupa poslanickaGrupa = session.Load<PoslanickaGrupa>(poslanickaGrupaId);
 
                 // TODO update Predsednik i zamenik
                 poslanickaGrupa.Naziv = poslanickaGrupaView.Naziv;
@@ -579,6 +579,61 @@ namespace DatabaseAccess
                 throw exception;
             }
         }
+
+        public static List<NarodniPoslanikView> ReadPoslanickaGrupaClanovi(int poslanickaGrupaId)
+        {
+            List<NarodniPoslanikView> narodniPoslaniciView = new List<NarodniPoslanikView>();
+
+            try
+            {
+                ISession session = DataLayer.GetSession();
+
+                IEnumerable<JeClan> jeClanNiz = from jeClan in session.Query<JeClan>()
+                                                            where jeClan.OrganizacionaJedinica.Id == poslanickaGrupaId
+                                                            select jeClan;
+
+                foreach (JeClan jeClan in jeClanNiz)
+                {
+                    narodniPoslaniciView.Add(new NarodniPoslanikView(jeClan.NarodniPoslanik));
+                }
+
+                session.Close();
+            }
+            catch (Exception exception)
+            {
+                throw exception;
+            }
+
+            return narodniPoslaniciView;
+        }
+
+        // public static List<SluzbenaProstorijaView> ReadPoslanickaGrupaSluzbeneProstorije(int poslanickaGrupaId)
+        // {
+        //     List<SluzbenaProstorijaView> sluzbeneProstorijeView = new List<SluzbenaProstorijaView>();
+
+        //     try
+        //     {
+        //         ISession session = DataLayer.GetSession();
+
+        //         IEnumerable<JeDodeljena> jeDodeljenaNiz = from jeDodeljena in session.Query<JeDodeljena>()
+        //                                                     where jeDodeljena.OrganizacionaJedinica.Id == poslanickaGrupaId
+        //                                                     select jeDodeljena;
+
+        //         foreach (JeDodeljena jeDodeljena in jeDodeljenaNiz)
+        //         {
+        //             sluzbeneProstorijeView.Add(new SluzbenaProstorijaView(jeDodeljena.SluzbenaProstorija));
+        //         }
+
+        //         session.Close();
+        //     }
+        //     catch (Exception exception)
+        //     {
+        //         throw exception;
+        //     }
+
+        //     return sluzbeneProstorijeView;
+        // }
+
 
         #endregion
 
@@ -660,13 +715,13 @@ namespace DatabaseAccess
         }
 
 
-        public static RadnoTeloView UpdateRadnoTelo(RadnoTeloView radnoTeloView)
+        public static RadnoTeloView UpdateRadnoTelo(int radnoTeloId, RadnoTeloView radnoTeloView)
         {
            try
             {
                 ISession session = DataLayer.GetSession();
 
-                RadnoTelo radnoTelo = session.Load<RadnoTelo>(radnoTeloView.Id);
+                RadnoTelo radnoTelo = session.Load<RadnoTelo>(radnoTeloId);
 
                 // TODO update Predsednik i zamenik
                 radnoTelo.Naziv = radnoTeloView.Naziv;
@@ -702,6 +757,61 @@ namespace DatabaseAccess
                 throw exception;
             }
         }
+        
+          public static List<NarodniPoslanikView> ReadRadnoTeloClanovi(int radnoTeloId)
+        {
+            List<NarodniPoslanikView> narodniPoslaniciView = new List<NarodniPoslanikView>();
+
+            try
+            {
+                ISession session = DataLayer.GetSession();
+
+                IEnumerable<JeClan> jeClanNiz = from jeClan in session.Query<JeClan>()
+                                                            where jeClan.OrganizacionaJedinica.Id == radnoTeloId
+                                                            select jeClan;
+
+                foreach (JeClan jeClan in jeClanNiz)
+                {
+                    narodniPoslaniciView.Add(new NarodniPoslanikView(jeClan.NarodniPoslanik));
+                }
+
+                session.Close();
+            }
+            catch (Exception exception)
+            {
+                throw exception;
+            }
+
+            return narodniPoslaniciView;
+        }
+
+        // public static List<SluzbenaProstorijaView> ReadRadnoTeloSluzbeneProstorije(int radnoTeloId)
+        // {
+        //     List<SluzbenaProstorijaView> sluzbeneProstorijeView = new List<SluzbenaProstorijaView>();
+
+        //     try
+        //     {
+        //         ISession session = DataLayer.GetSession();
+
+        //         IEnumerable<JeDodeljena> jeDodeljenaNiz = from jeDodeljena in session.Query<JeDodeljena>()
+        //                                                     where jeDodeljena.OrganizacionaJedinica.Id == radnoTeloId
+        //                                                     select jeDodeljena;
+
+        //         foreach (JeDodeljena jeDodeljena in jeDodeljenaNiz)
+        //         {
+        //             sluzbeneProstorijeView.Add(new SluzbenaProstorijaView(jeDodeljena.SluzbenaProstorija));
+        //         }
+
+        //         session.Close();
+        //     }
+        //     catch (Exception exception)
+        //     {
+        //         throw exception;
+        //     }
+
+        //     return sluzbeneProstorijeView;
+        // }
+        
         #endregion
         
     }
