@@ -56,11 +56,11 @@ namespace DatabaseSystemsProjectWebAPI.Controllers
 
         [HttpPut]
         [Route("{radnoTeloId}")]
-        public IActionResult UpdateRadnoTelo([FromBody] RadnoTeloView radnoTelo)
+        public IActionResult UpdateRadnoTelo(int radnoTeloId, [FromBody] RadnoTeloView radnoTelo)
         {
             try
             {
-                DataProvider.UpdateRadnoTelo(radnoTelo);
+                DataProvider.UpdateRadnoTelo(radnoTeloId, radnoTelo);
                 return Ok();
             }
             catch (Exception exception)
@@ -84,9 +84,9 @@ namespace DatabaseSystemsProjectWebAPI.Controllers
             }
         }
 
-        /*
+        
         [HttpGet]
-        [Route("{radnoTeloId/clanovi}")]
+        [Route("{radnoTeloId}/clanovi")]
         public IActionResult GetClanovi(int radnoTeloId)
         {
             try
@@ -99,6 +99,7 @@ namespace DatabaseSystemsProjectWebAPI.Controllers
             }
         }
 
+        /*
         [HttpGet]
         [Route("{radnoTeloId/sluzbene-prostorije}")]
         public IActionResult GetSluzbeneProstorije(int radnoTeloId)

@@ -59,7 +59,7 @@ namespace DatabaseSystemsProjectWebAPI.Controllers
         {
             try
             {
-                DataProvider.UpdateStalnoZaposlen(stalnoZaposlenView);
+                DataProvider.UpdateStalnoZaposlen(stalnoZaposlenId, stalnoZaposlenView);
                 return Ok();
             }
             catch (Exception exception)

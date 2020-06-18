@@ -56,11 +56,11 @@ namespace DatabaseSystemsProjectWebAPI.Controllers
 
         [HttpPut]
         [Route("{poslanickaGrupaId}")]
-        public IActionResult UpdatePoslanickaGrupa([FromBody]PoslanickaGrupaView poslanickaGrupa)
+        public IActionResult UpdatePoslanickaGrupa(int poslanickaGrupaId, [FromBody]PoslanickaGrupaView poslanickaGrupa)
         {
             try
             {
-                DataProvider.UpdatePoslanickaGrupa(poslanickaGrupa);
+                DataProvider.UpdatePoslanickaGrupa(poslanickaGrupaId, poslanickaGrupa);
                 return Ok();
             }
             catch (Exception exception)
@@ -84,9 +84,9 @@ namespace DatabaseSystemsProjectWebAPI.Controllers
             }
         }
 
-        /*
+        
         [HttpGet]
-        [Route("{poslanickaGrupaId/clanovi}")]
+        [Route("{poslanickaGrupaId}/clanovi")]
         public IActionResult GetClanovi(int poslanickaGrupaId)
         {
             try
@@ -99,6 +99,7 @@ namespace DatabaseSystemsProjectWebAPI.Controllers
             }
         }
 
+        /*
         [HttpGet]
         [Route("{poslanickaGrupaId/sluzbene-prostorije}")]
         public IActionResult GetSluzbeneProstorije(int poslanickaGrupaId)
