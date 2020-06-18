@@ -5126,19 +5126,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Predrag\\.nuget\\packages\\": {}
+    "C:\\Users\\Dimitrije\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Predrag\\Desktop\\DatabaseSystemsProjectWebAPI\\DatabaseAccess\\DatabaseAccess.csproj",
+      "projectUniqueName": "D:\\DatabseSystems ThirdPart\\DatabaseAccess\\DatabaseAccess.csproj",
       "projectName": "DatabaseAccess",
-      "projectPath": "C:\\Users\\Predrag\\Desktop\\DatabaseSystemsProjectWebAPI\\DatabaseAccess\\DatabaseAccess.csproj",
-      "packagesPath": "C:\\Users\\Predrag\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Predrag\\Desktop\\DatabaseSystemsProjectWebAPI\\DatabaseAccess\\obj\\",
+      "projectPath": "D:\\DatabseSystems ThirdPart\\DatabaseAccess\\DatabaseAccess.csproj",
+      "packagesPath": "C:\\Users\\Dimitrije\\.nuget\\packages\\",
+      "outputPath": "D:\\DatabseSystems ThirdPart\\DatabaseAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Predrag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Dimitrije\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5189,18 +5189,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[3.1.2, 3.1.2]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
