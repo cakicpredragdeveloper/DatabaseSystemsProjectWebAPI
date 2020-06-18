@@ -29,3 +29,35 @@ C:\Users\Predrag\Desktop\DatabaseSystemsProjectWebAPI\DatabaseSystemsProjectWebA
 C:\Users\Predrag\Desktop\DatabaseSystemsProjectWebAPI\DatabaseSystemsProjectWebAPI\obj\Debug\netcoreapp3.1\DatabaseSystemsProjectWebAPI.dll
 C:\Users\Predrag\Desktop\DatabaseSystemsProjectWebAPI\DatabaseSystemsProjectWebAPI\obj\Debug\netcoreapp3.1\DatabaseSystemsProjectWebAPI.pdb
 C:\Users\Predrag\Desktop\DatabaseSystemsProjectWebAPI\DatabaseSystemsProjectWebAPI\obj\Debug\netcoreapp3.1\DatabaseSystemsProjectWebAPI.genruntimeconfig.cache
+D:\DatabseSystems ThirdPart\DatabaseSystemsProjectWebAPI\obj\Debug\netcoreapp3.1\DatabaseSystemsProjectWebAPI.dll
+D:\DatabseSystems ThirdPart\DatabaseSystemsProjectWebAPI\obj\Debug\netcoreapp3.1\DatabaseSystemsProjectWebAPI.pdb
+D:\DatabseSystems ThirdPart\DatabaseSystemsProjectWebAPI\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\DatabseSystems ThirdPart\DatabaseSystemsProjectWebAPI\bin\Debug\netcoreapp3.1\appsettings.json
+D:\DatabseSystems ThirdPart\DatabaseSystemsProjectWebAPI\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\DatabseSystems ThirdPart\DatabaseSystemsProjectWebAPI\bin\Debug\netcoreapp3.1\DatabaseSystemsProjectWebAPI.exe
+D:\DatabseSystems ThirdPart\DatabaseSystemsProjectWebAPI\bin\Debug\netcoreapp3.1\DatabaseSystemsProjectWebAPI.deps.json
+D:\DatabseSystems ThirdPart\DatabaseSystemsProjectWebAPI\bin\Debug\netcoreapp3.1\DatabaseSystemsProjectWebAPI.runtimeconfig.json
+D:\DatabseSystems ThirdPart\DatabaseSystemsProjectWebAPI\bin\Debug\netcoreapp3.1\DatabaseSystemsProjectWebAPI.runtimeconfig.dev.json
+D:\DatabseSystems ThirdPart\DatabaseSystemsProjectWebAPI\bin\Debug\netcoreapp3.1\DatabaseSystemsProjectWebAPI.dll
+D:\DatabseSystems ThirdPart\DatabaseSystemsProjectWebAPI\bin\Debug\netcoreapp3.1\DatabaseSystemsProjectWebAPI.pdb
+D:\DatabseSystems ThirdPart\DatabaseSystemsProjectWebAPI\bin\Debug\netcoreapp3.1\Antlr3.Runtime.dll
+D:\DatabseSystems ThirdPart\DatabaseSystemsProjectWebAPI\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\DatabseSystems ThirdPart\DatabaseSystemsProjectWebAPI\bin\Debug\netcoreapp3.1\FluentNHibernate.dll
+D:\DatabseSystems ThirdPart\DatabaseSystemsProjectWebAPI\bin\Debug\netcoreapp3.1\Iesi.Collections.dll
+D:\DatabseSystems ThirdPart\DatabaseSystemsProjectWebAPI\bin\Debug\netcoreapp3.1\NHibernate.dll
+D:\DatabseSystems ThirdPart\DatabaseSystemsProjectWebAPI\bin\Debug\netcoreapp3.1\Oracle.ManagedDataAccess.dll
+D:\DatabseSystems ThirdPart\DatabaseSystemsProjectWebAPI\bin\Debug\netcoreapp3.1\Remotion.Linq.dll
+D:\DatabseSystems ThirdPart\DatabaseSystemsProjectWebAPI\bin\Debug\netcoreapp3.1\Remotion.Linq.EagerFetching.dll
+D:\DatabseSystems ThirdPart\DatabaseSystemsProjectWebAPI\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\DatabseSystems ThirdPart\DatabaseSystemsProjectWebAPI\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\DatabseSystems ThirdPart\DatabaseSystemsProjectWebAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\DatabseSystems ThirdPart\DatabaseSystemsProjectWebAPI\bin\Debug\netcoreapp3.1\DatabaseAccess.dll
+D:\DatabseSystems ThirdPart\DatabaseSystemsProjectWebAPI\bin\Debug\netcoreapp3.1\DatabaseAccess.pdb
+D:\DatabseSystems ThirdPart\DatabaseSystemsProjectWebAPI\obj\Debug\netcoreapp3.1\DatabaseSystemsProjectWebAPI.csprojAssemblyReference.cache
+D:\DatabseSystems ThirdPart\DatabaseSystemsProjectWebAPI\obj\Debug\netcoreapp3.1\staticwebassets\DatabaseSystemsProjectWebAPI.StaticWebAssets.Manifest.cache
+D:\DatabseSystems ThirdPart\DatabaseSystemsProjectWebAPI\obj\Debug\netcoreapp3.1\staticwebassets\DatabaseSystemsProjectWebAPI.StaticWebAssets.xml
+D:\DatabseSystems ThirdPart\DatabaseSystemsProjectWebAPI\obj\Debug\netcoreapp3.1\DatabaseSystemsProjectWebAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\DatabseSystems ThirdPart\DatabaseSystemsProjectWebAPI\obj\Debug\netcoreapp3.1\DatabaseSystemsProjectWebAPI.AssemblyInfoInputs.cache
+D:\DatabseSystems ThirdPart\DatabaseSystemsProjectWebAPI\obj\Debug\netcoreapp3.1\DatabaseSystemsProjectWebAPI.AssemblyInfo.cs
+D:\DatabseSystems ThirdPart\DatabaseSystemsProjectWebAPI\obj\Debug\netcoreapp3.1\DatabaseSystemsProjectWebAPI.RazorTargetAssemblyInfo.cache
+D:\DatabseSystems ThirdPart\DatabaseSystemsProjectWebAPI\obj\Debug\netcoreapp3.1\DatabaseSystemsProjectWebAPI.csproj.CopyComplete
