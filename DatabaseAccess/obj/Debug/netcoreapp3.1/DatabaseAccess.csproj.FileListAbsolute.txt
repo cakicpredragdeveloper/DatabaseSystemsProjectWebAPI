@@ -5,4 +5,5 @@ C:\Users\Predrag\Desktop\DatabaseSystemsProjectWebAPI\DatabaseAccess\obj\Debug\n
 C:\Users\Predrag\Desktop\DatabaseSystemsProjectWebAPI\DatabaseAccess\bin\Debug\netcoreapp3.1\DatabaseAccess.pdb
 C:\Users\Predrag\Desktop\DatabaseSystemsProjectWebAPI\DatabaseAccess\obj\Debug\netcoreapp3.1\DatabaseAccess.dll
 C:\Users\Predrag\Desktop\DatabaseSystemsProjectWebAPI\DatabaseAccess\obj\Debug\netcoreapp3.1\DatabaseAccess.pdb
+C:\Users\Predrag\Desktop\DatabaseSystemsProjectWebAPI\DatabaseAccess\obj\Debug\netcoreapp3.1\DatabaseAccess.csproj.CoreCompileInputs.cache
 C:\Users\Predrag\Desktop\DatabaseSystemsProjectWebAPI\DatabaseAccess\obj\Debug\netcoreapp3.1\DatabaseAccess.csprojAssemblyReference.cache
