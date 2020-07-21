@@ -14,4 +14,3 @@ D:\DatabseSystems ThirdPart\DatabaseAccess\obj\Debug\netcoreapp3.1\DatabaseAcces
 D:\DatabseSystems ThirdPart\DatabaseAccess\bin\Debug\netcoreapp3.1\DatabaseAccess.deps.json
 D:\DatabseSystems ThirdPart\DatabaseAccess\bin\Debug\netcoreapp3.1\DatabaseAccess.dll
 D:\DatabseSystems ThirdPart\DatabaseAccess\bin\Debug\netcoreapp3.1\DatabaseAccess.pdb
-C:\Users\Predrag\Desktop\DatabaseSystemsProjectWebAPI\DatabaseAccess\obj\Debug\netcoreapp3.1\DatabaseAccess.csprojAssemblyReference.cache
