@@ -57,6 +57,20 @@ namespace DatabaseSystemsProjectWebAPI.Controllers
             }
         }
 
+        [HttpGet("{Id}/organizacioneJedinice")]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public IActionResult GetOrganizacioneJedinice(int Id)
+        {
+            try
+            {
+                return new JsonResult(DataProvider.ReadOrgaznizacioneJedinice(Id));
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.ToString());
+            }
+        }
+
         [HttpPut]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]

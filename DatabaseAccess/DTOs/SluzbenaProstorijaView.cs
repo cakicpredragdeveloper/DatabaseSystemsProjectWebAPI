@@ -13,7 +13,7 @@ namespace DatabaseAccess.DTOs
 
         public SluzbenaProstorijaView()
         {
-
+            
         }
 
         public SluzbenaProstorijaView(SluzbenaProstorija sluzbenaProstorija)

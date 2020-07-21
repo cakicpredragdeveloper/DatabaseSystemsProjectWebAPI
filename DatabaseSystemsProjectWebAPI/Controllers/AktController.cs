@@ -182,7 +182,7 @@ namespace DatabaseSystemsProjectWebAPI.Controllers
             }
         }
 
-        [HttpPost("aktVlade")]
+        [HttpPut("aktVlade")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public IActionResult PutAktVlade(AktVladeView akt)

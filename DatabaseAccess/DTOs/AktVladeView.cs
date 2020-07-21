@@ -1,12 +1,16 @@
-﻿using System;
+﻿using DatabaseAccess.Entities;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace DatabaseAccess.DTOs
 {
-    public class AktVladeView
+    public class AktVladeView : AktView
     {
-        public int Id { get; set; }
-        public string TipAkta { get; set; }
+        public AktVladeView() : base()
+        { }
+
+        public AktVladeView(AktVlade aktVlade) : base(aktVlade)
+        { }
     }
 }

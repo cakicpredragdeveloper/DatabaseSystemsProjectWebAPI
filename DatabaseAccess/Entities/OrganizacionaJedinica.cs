@@ -10,8 +10,6 @@ namespace DatabaseAccess.Entities
     {
         public virtual int Id { get; protected set; }
         public virtual string Tip { get; set; }
-        public virtual string Naziv { get; set; }
-        public virtual string TipRadnogTela { get; set; }
 
         public virtual NarodniPoslanik Predsednik { get; set; }
         public virtual NarodniPoslanik Zamenik { get; set; }
@@ -30,9 +28,11 @@ namespace DatabaseAccess.Entities
 
     public class PoslanickaGrupa : OrganizacionaJedinica
     {
+        public virtual string Naziv { get; set; }
     }
 
     public class RadnoTelo : OrganizacionaJedinica
     {
+        public virtual string TipRadnogTela { get; set; }
     }
 }

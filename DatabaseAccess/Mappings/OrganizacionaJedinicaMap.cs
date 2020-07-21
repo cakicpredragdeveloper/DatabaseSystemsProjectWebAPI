@@ -18,9 +18,6 @@ namespace DatabaseAccess.Mappings
 
             Id(x => x.Id, "ID").GeneratedBy.TriggerIdentity();
 
-            Map(x => x.Naziv, "NAZIV");
-            Map(x => x.TipRadnogTela, "TIP_RADNOG_TELA");
-
             References(x => x.Predsednik).Column("PREDSEDNIK_ID").LazyLoad();
             References(x => x.Zamenik).Column("ZAMENIK_ID").LazyLoad();
 
@@ -35,6 +32,8 @@ namespace DatabaseAccess.Mappings
         public PoslanickaGrupaMap()
         {
             DiscriminatorValue("poslanicka grupa");
+
+            Map(x => x.Naziv, "NAZIV");
         }
     }
 
@@ -43,6 +42,8 @@ namespace DatabaseAccess.Mappings
         public RadnoTeloMap()
         {
             DiscriminatorValue("radno telo");
+
+            Map(x => x.TipRadnogTela, "TIP_RADNOG_TELA");
         }
     }
 }
